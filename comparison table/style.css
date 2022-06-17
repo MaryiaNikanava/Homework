@@ -1,5 +1,5 @@
 body {
-    background-color: #5ab152;
+    background-color: #54a5ce;
     font-family: Roboto, sans-serif;
     color: #333;
     font-size: 14px;
@@ -46,14 +46,14 @@ h3 {
 .grid-items {
     display: grid;
     justify-items: center;
-    border-top: rgba(0, 0, 0, 0.12) 1px solid;
+    border-top: rgba(0, 0, 0, 0.313) 1px solid;
     ALIGN-ITEMS: center;
     background-color: #ffffff;
     color: #777;
 }
 
 .blue {
-    background-color: #5e9248;
+    background-color: #375fa0;
     color: #fff;
 }
 
