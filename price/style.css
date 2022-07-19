@@ -52,7 +52,7 @@ body {
 }
 
 .card:nth-child(1) {
-    background: linear-gradient(to left, #91eae4, #86a8e7, #7f7fd5);
+    background: linear-gradient(to left, #4dc2ba, #655ae4, #d17fd5);
 }
 
 .card:nth-child(2) {
@@ -95,15 +95,15 @@ body {
 }
 
 .price-basic::before {
-    content: "$20"
+    content: "$30"
 }
 
 .price-awesome::before {
-    content: "$50"
+    content: "$60"
 }
 
 .price-premium::before {
-    content: "100"
+    content: "90"
 }
 
 .price-basic::before, .price-awesome::before, .price-premium::before {
