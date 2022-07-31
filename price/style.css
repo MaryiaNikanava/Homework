@@ -103,7 +103,7 @@ body {
 }
 
 .price-premium::before {
-    content: "90"
+    content: "$99"
 }
 
 .price-basic::before, .price-awesome::before, .price-premium::before {
