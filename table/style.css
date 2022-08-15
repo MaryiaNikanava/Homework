@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #2ac91c;
+    border: solid 1px #1a7e11;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #2ac91c;
+    color: #1c8513;
     font-size: 20px;
 }
 
@@ -52,11 +52,11 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #2ac91c;
+    border: solid 2px #12550c;
 }
 
 .bordergreen:focus, textarea:focus {
-    border: solid 2px #2ac91c;
+    border: solid 2px #15610e;
 }
 
 form {
