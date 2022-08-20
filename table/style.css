@@ -6,18 +6,18 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100%;
+    min-height: 120%;
     font-family: 'Open Sans0', sans-serif;
 }
 
 fieldset {
-    border: solid 1px #1a7e11;
+    border: solid 1px #0b29af;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #1c8513;
+    color: #181bbd;
     font-size: 20px;
 }
 
@@ -25,7 +25,7 @@ fieldset {
     width: 60px;
     height: 60px;
     position: absolute;
-    left: 620px;
+    left: 650px;
 }
 
 fieldset div, input {
@@ -100,7 +100,7 @@ button {
 }
 
 button:hover, button:focus {
-    border-color: rgba(17, 252, 9, 0.8);
+    border-color: rgba(46, 9, 252, 0.8);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
     outline: 0 none;
 }
@@ -129,7 +129,7 @@ input[type='radio']::before {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border: 2px solid #2ac91c;
+    border: 2px solid #301cc9;
 }
 
 input[type='radio']:checked::after {
@@ -140,7 +140,7 @@ input[type='radio']:checked::after {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #2ac91c;
+    background-color: #1c27c9;
     transform: translate(-50%, -50%);
     visibility: visible;
 }
@@ -234,14 +234,14 @@ input[id=smoking-room], input[id=different-rooms] {
 input[type=checkbox]:checked+.checkbox::after, input[type=checkbox]:checked+.checkbox-label::after {
     content: "YES";
     text-align: left;
-    color: #2ac91c;
+    color: #1c30c9;
     background: rgb(61, 61, 61);
 }
 
 input[type=checkbox]:checked+.checkbox-label::before {
     position: absolute;
     left: 176px;
-    background: #2ac91c;
+    background: #441cc9;
     z-index: 1;
 }
 
@@ -262,6 +262,6 @@ input[type=checkbox]:checked+.checkbox-label::before {
 input[type=checkbox]:checked+.checkbox::before {
     position: absolute;
     left: 166px;
-    background: #2ac91c;
+    background: #441cc9;
     z-index: 1;
 }
